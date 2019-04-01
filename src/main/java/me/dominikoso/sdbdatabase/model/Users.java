@@ -1,15 +1,10 @@
 package me.dominikoso.sdbdatabase.model;
 
-import com.fasterxml.jackson.databind.util.BeanUtil;
-import me.dominikoso.sdbdatabase.dto.UserDto;
-import org.hibernate.annotations.DynamicUpdate;
-import org.springframework.beans.BeanUtils;
-
 import javax.persistence.*;
 
 @Entity
 @Table(name="users")
-public class User {
+public class Users {
 
     //region Variables
 

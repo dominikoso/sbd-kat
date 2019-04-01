@@ -1,6 +1,6 @@
 package me.dominikoso.sdbdatabase.dto;
 
-public class UserDto {
+public class UsersDto {
 
     //region Variables
 

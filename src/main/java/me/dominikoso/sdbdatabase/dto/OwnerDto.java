@@ -1,6 +1,6 @@
 package me.dominikoso.sdbdatabase.dto;
 
-import me.dominikoso.sdbdatabase.model.User;
+import me.dominikoso.sdbdatabase.model.Users;
 
 public class OwnerDto {
 
@@ -11,7 +11,7 @@ public class OwnerDto {
     private String phone;
     private String mobilePhone;
     private String dateOfModification;
-    private User user;
+    private Users user;
 
     //endregion
 
@@ -57,11 +57,11 @@ public class OwnerDto {
         this.dateOfModification = dateOfModification;
     }
 
-    public User getUser() {
+    public Users getUser() {
         return user;
     }
 
-    public void setUser(User user) {
+    public void setUser(Users user) {
         this.user = user;
     }
 

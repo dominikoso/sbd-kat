@@ -17,7 +17,7 @@ public class Owner {
 
     @JoinColumn(name = "added_by")
     @OneToOne(cascade = CascadeType.ALL)
-    private User user;
+    private Users user;
 
     //endregion
 
@@ -63,11 +63,11 @@ public class Owner {
         this.dateOfModification = dateOfModification;
     }
 
-    public User getUser() {
+    public Users getUser() {
         return user;
     }
 
-    public void setUser(User user) {
+    public void setUser(Users user) {
         this.user = user;
     }
 
